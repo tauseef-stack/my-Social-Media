@@ -1,0 +1,5 @@
+.feedContainer{
+    flex:6.5;
+    height: calc(100vh - 50px); /*awesome*/
+    margin-top:50px;
+}

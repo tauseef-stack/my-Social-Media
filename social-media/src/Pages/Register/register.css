@@ -1,0 +1,73 @@
+.loginContainer{
+    width: 100vw;
+    height: 100vh;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginWrapper{
+    width: 70%;
+    height: 70%;
+    display: flex;
+   
+}
+.loginLeft,.loginRight{
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+.loginLogo{
+    font-size: 50px;
+    font-weight: 800;
+    color:#1775ee;
+    margin-bottom: 20px;
+}
+.loginDesc{
+    font-size: 24px;
+}
+.loginBox{
+    height: 400px;
+    padding:20px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.loginEmial,.loginPassword{
+    height: 50px;
+    border-radius: 10px;
+    border:1px solid gray;
+    font-size: 18px;
+    padding-left: 20px;
+    outline: none;
+}
+.LoginButton{
+    height: 50px;
+    border-radius: 10px; 
+    font-size: 20px;
+     color:#fff;
+     background-color: #1775ee;
+     border:none;
+     font-weight: 500;
+     cursor: pointer;
+}
+.forgotPassword{
+    text-align: center;
+    color:#1776ee;
+}
+.CreateNewAccount{
+    width: 65%;
+    align-self: center;
+    text-align: center;
+    height: 50px;
+    border-radius: 10px; 
+    font-size: 20px;
+     color:#fff;
+     background-color: #42b72a ;
+     border:none;
+     font-weight: 500;
+     cursor: pointer;
+}
